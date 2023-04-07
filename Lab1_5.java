@@ -11,6 +11,11 @@ public class Lab1_5 {
 		System.out.println("Tong cua hai so la :" + (num1 + num2));
 		System.out.println("Hieu cua hai so la :" + (num1 - num2));
 		System.out.println("Tich cua hai so la :" + (num1 * num2));
-		System.out.println("Thuong cua hai so la :" + (num1 / num2));
+		if(num2 != 0) {
+			System.out.println("Thuong cua hai so la :" + (num1 / num2));
+		}
+		else {
+			System.out.println("So chia bang 0, khong the thuc hien phep chia");
+		}
 	}
 }
